@@ -13,7 +13,7 @@ html,body{
     background-color: #0F0D0D;
 }
 .page1{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 
 }
@@ -33,7 +33,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 3vw;
  }
 #nav #circle{
     height: 20px;
@@ -50,3 +50,20 @@ html,body{
     border-bottom: 2px solid #fff ;
 }
 
+.page1  h1{
+    font-size: 6vw;
+    font-weight: 700  ;
+    margin-top: 12vw;
+    margin-left: 6vw;
+}
+.page1  h2{
+    font-size: 6vw;
+    font-weight: 700;
+    margin-left: 16vw;
+
+}
+.page1 .video{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10vw;
+}
