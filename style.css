@@ -216,6 +216,10 @@ html, body {
     height: 500px;
     width: 440px;
 }
+#jin-fight{
+    height: 400px;
+    width: 500px;
+}
 .elem img{
     position: absolute;
     opacity: 0;
