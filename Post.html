@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Post — Duo Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="post">
+    <div class="cursor"></div>
+
+    <div id="nav">
+        <img src="Assets/Images/ChatGPT Image Apr 26, 2025, 11_44_36 PM.png" alt="Site logo">
+        <div id="nav-part2">
+            <a href="Index.html">Home</a>
+            <a href="Blog.html" class="active">Blog</a>
+            <a href="Services.html">Services</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <div id="nav-part3"><div id="circle"></div></div>
+    </div>
+
+    <div id="purple"></div>
+
+    <div class="main" data-scroll-container>
+        <section class="hero" data-scroll-section>
+            <h1 class="hero__title split">Designing with Motion Systems</h1>
+            <p class="hero__sub">Frameworks for consistent interaction choreography.</p>
+        </section>
+
+        <article class="post" data-scroll-section>
+            <div class="post__cover"></div>
+            <div class="post__content">
+                <p class="reveal">Motion systems define how elements enter, move, and respond. They make complex interactions predictable and delightful.</p>
+                <p class="reveal">Use timelines to coordinate multiple elements and keep transitions consistent across the site.</p>
+                <p class="reveal">Prefer transforms and opacity. Avoid layout thrash; batch reads/writes, and throttle scroll work.</p>
+            </div>
+        </article>
+
+        <footer></footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

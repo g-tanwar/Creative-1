@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Blog — Duo Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="blog">
+    <div class="cursor"></div>
+
+    <div id="nav">
+        <img src="Assets/Images/ChatGPT Image Apr 26, 2025, 11_44_36 PM.png" alt="Site logo">
+        <div id="nav-part2">
+            <a href="Index.html">Home</a>
+            <a href="Blog.html" class="active">Blog</a>
+            <a href="Services.html">Services</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <div id="nav-part3"><div id="circle"></div></div>
+    </div>
+
+    <div id="purple"></div>
+
+    <div class="main" data-scroll-container>
+        <section class="hero hero--blog" data-scroll-section>
+            <h1 class="hero__title split">Latest Signals</h1>
+            <p class="hero__sub">Notes on brand systems, motion, and creative technology.</p>
+        </section>
+
+        <section class="blog-grid" data-scroll-section>
+            <a class="post-card reveal post-card--image-1" href="Post.html">
+                <div class="post-card__media lazy" data-src="Assets/Images/vibe.jpeg" aria-label="Post cover"></div>
+                <div class="post-card__meta">
+                    <h3>Designing with Motion Systems</h3>
+                    <p>Frameworks for consistent interaction choreography.</p>
+                </div>
+            </a>
+
+            <a class="post-card reveal post-card--image-2" href="Post.html">
+                <div class="post-card__media lazy" data-src="Assets/Images/_ (3).jpeg" aria-label="Post cover"></div>
+                <div class="post-card__meta">
+                    <h3>Parallax: Dos and Don’ts</h3>
+                    <p>Subtle depth without motion sickness.</p>
+                </div>
+            </a>
+
+            <a class="post-card reveal post-card--image-3" href="Post.html">
+                <div class="post-card__media lazy" data-src="Assets/Video/video1.gif" aria-label="Post cover"></div>
+                <div class="post-card__meta">
+                    <h3>GSAP ScrollTrigger Patterns</h3>
+                    <p>Batching, timelines, and performance recipes.</p>
+                </div>
+            </a>
+        </section>
+
+        <footer></footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
